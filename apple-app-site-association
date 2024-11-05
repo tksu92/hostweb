@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "2F5P42TA3A.global.leostudio.pet",
-        "paths": [ "/referral/*" ]
+        "paths": [ "/referral/*", "*"]
       }
     ]
   }
