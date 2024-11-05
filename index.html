@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+<!-- 11111 -->
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,5 +12,27 @@
     <h1>Welcome to MyApp!</h1>
     <p>Use referral code <strong>ABC123</strong> to get your bonus when you download the app.</p>
     <a href="https://apps.apple.com/app/your-app-id">Download MyApp</a>
+</body>
+</html> -->
+
+
+<!-- 2222222 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function() {
+            var appScheme = "yourapp://"; // Replace with your app's URL scheme
+            window.location = appScheme;
+
+            setTimeout(function() {
+                window.location = "https://apps.apple.com/us/app/your-app-name/idYOUR_APP_ID"; // Your App Store URL
+            }, 2000); // Redirects to App Store after 2 seconds
+        }
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://apps.apple.com/us/app/your-app-name/idYOUR_APP_ID">click here</a>.</p>
 </body>
 </html>
